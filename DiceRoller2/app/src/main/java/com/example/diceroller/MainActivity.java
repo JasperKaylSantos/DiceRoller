@@ -20,8 +20,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 rollDice();
             }
-    });
-}
+        });
+    }
     private void rollDice() {
         int randomNumber = rng.nextInt(6) + 1;
         switch (randomNumber) {
